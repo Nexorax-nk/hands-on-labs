@@ -14,11 +14,13 @@ This repo is part of the **IBM SkillsBuild AI Builders Challenge** and is your s
 
 ---
 
-## 🏁 Current Lab
+## 🏁 Completed Labs
 
-**TORCS (May Challenge Lab)**  
-You’ll explore AI + simulation by running and improving an autonomous driving agent.  
-No pressure to be perfect — this is all about learning and experimenting.
+**✅ TORCS (May Challenge Lab) - COMPLETED**  
+I have successfully run the autonomous AI driver, resolved the high-speed cornering issues, and implemented a robust adaptive control system. 
+
+* 📈 **Results & Key Insights:** You can check out my full reflections and observations in my [RESULTS.md](file:///c:/Users/navee/hands-on-labs/01_torcs_lab/RESULTS.md).
+* 💡 **Reflection:** This lab was extremely helpful in building hands-on intuition for how real-time sensor data can be utilized in closed-loop feedback systems to control steering, acceleration, and braking dynamics safely!
 
 ---
 
