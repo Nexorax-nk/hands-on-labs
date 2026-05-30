@@ -4,7 +4,7 @@ Welcome to the results and engineering documentation for the **IBM SkillsBuild T
 
 ---
 
-## 📈 Executive Summary & Core Insights
+## Executive Summary & Core Insights
 
 In this learning lab, we developed a Python-based autonomous agent that communicates with **TORCS (The Open Racing Car Simulator)** over a local UDP connection. By analyzing raw sensor inputs (speeds, angles, and distances to track boundaries) and outputting control effectors (steering, throttle, brakes, and gear shifts), we transitioned a simple rule-based driver into an **adaptive control system** capable of driving safely at high speeds.
 
@@ -13,7 +13,7 @@ Increasing target speeds without corresponding modifications in vehicle physics 
 
 ---
 
-## 📊 Summary of Controller Configurations
+## Summary of Controller Configurations
 
 | Experiment | Target Speed (km/h) | Adaptive Speed Control | Speed-Sensitive Steering | Dynamic Braking | Behavior & Performance Observations |
 | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -23,7 +23,7 @@ Increasing target speeds without corresponding modifications in vehicle physics 
 
 ---
 
-## 🛠️ Technical Insights & Control Architecture
+## Technical Insights & Control Architecture
 
 ### 1. The Physics of Cornering at High Speeds (Task 3 Failure)
 When the vehicle's speed ($v$) increases, the centripetal force required to keep the vehicle on a circular path of radius $R$ increases quadratically:
@@ -40,7 +40,7 @@ To make high-speed racing possible, we designed and implemented a closed-loop co
 
 ---
 
-## 📷 Simulator Screenshot
+## Simulator Screenshot
 
 Below is a capture of our autonomous vehicle driving on the track. The HUD shows the car successfully regulating its speed and gear selection during cornering to maintain maximum stability:
 
@@ -48,7 +48,7 @@ Below is a capture of our autonomous vehicle driving on the track. The HUD shows
 
 ---
 
-## 💡 Engineering Reflections
+## Engineering Reflections
 
 1. **The Dampening Effect:**
    Jerky steering is the biggest enemy of high-speed racing. Dampening the steering gain at high speeds solved the issue of the vehicle constantly fishtailing on straights. 
